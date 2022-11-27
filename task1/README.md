@@ -11,15 +11,34 @@ network will not be in a pathological congestion situation. The task is then to 
 the theoretical model to simulated results with different values of the packet loss probability p. In
 more detail measure and compare the following:
 ```
-• Using data from the simulation, give estimates for the mean file transfer times and
+1. Using data from the simulation, give estimates for the mean file transfer times and
 throughputs of each class based on applying Eq. (11).  
-• Include also confidence intervals in your results.   
-![image](https://user-images.githubusercontent.com/76244527/204162364-3f0d31f1-29e9-46af-9dcf-ec166e86da65.png)  
-• Plot your results in a graph as a function of p.  
-RED - Class 4  
-GREEN - Class 3  
-YELLOW - Class 2  
-BLUE - Class 1  
+2. Include also confidence intervals in your results.   
+
+- For p = 0.1%  
+![image](https://user-images.githubusercontent.com/76244527/204163785-3c8dec43-e734-41a9-a0cb-73924637d595.png)
+
+- For p = 0.5%  
+![image](https://user-images.githubusercontent.com/76244527/204163805-587356f7-0c89-4275-b1c1-7433d559c78e.png)
+
+- For p = 1%  
+![image](https://user-images.githubusercontent.com/76244527/204163825-9cf42b3f-7992-4a11-a63b-b24db2fe48f9.png)
+
+- For p = 2%  
+![image](https://user-images.githubusercontent.com/76244527/204163843-c2cf7c15-fc4a-434f-be26-852b069af4a0.png)
+
+- For p = 4%  
+![image](https://user-images.githubusercontent.com/76244527/204163868-cdac159a-a1dd-4a8d-ae6b-85b6d5986a3b.png)
+
+- For p = 5%   
+![image](https://user-images.githubusercontent.com/76244527/204163939-11cf6952-8214-4a97-8a75-c6510d88e7a5.png)
+
+
+3. Plot your results in a graph as a function of p.  
+- RED - Class 4  
+- GREEN - Class 3  
+- YELLOW - Class 2  
+- BLUE - Class 1  
 ![image](https://user-images.githubusercontent.com/76244527/204162394-baafbfff-787e-4a9f-bf3c-0be3c3b950cd.png)
 ![image](https://user-images.githubusercontent.com/76244527/204162464-4e462bec-6fb6-46f8-8cee-ff45c69cd878.png)
 
